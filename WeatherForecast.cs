@@ -5,6 +5,7 @@ namespace microservices_net3
     public class WeatherForecast
     {
         public DateTime Date { get; set; }
+        public DateTime Today { get; set; }
 
         public int TemperatureC { get; set; }
 
